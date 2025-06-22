@@ -1,5 +1,5 @@
 export const Test1 = () => {
-    const value = "Lorem ipsum"
+  const value = 'Lorem ipsum';
 
-    return null
-}
+  return <div>{value}</div>;
+};
