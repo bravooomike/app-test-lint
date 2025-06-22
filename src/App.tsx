@@ -1,4 +1,4 @@
-import { Test } from "./test/Test";
+import { Test } from './test/Test';
 
 export function App() {
   return (
