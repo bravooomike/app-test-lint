@@ -4,9 +4,13 @@ type Props = {
 
 export const Test = ({ name }: Props) => {
   // ta reuła lint ominie var
-  // eslint-disable-next-line no-var
+   
 
-  var a = 10;
+  const a = 10;
 
-  return <div>{name}</div>;
+  return (
+    <div>
+      {name} {a}
+    </div>
+  );
 };
