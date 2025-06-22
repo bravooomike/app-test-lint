@@ -1,4 +1,4 @@
-import { Test } from './test/Test';
+import { Test } from "./test/Test";
 
 export function App() {
   return (
@@ -7,5 +7,3 @@ export function App() {
     </>
   );
 }
-
-//export default App

@@ -5,7 +5,7 @@ type Props = {
 export const Test = ({ name }: Props) => {
   // ta reuła lint ominie var
 
-  const a = 10;
+  const a: number = 10;
 
   return (
     <div>
